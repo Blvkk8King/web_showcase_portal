@@ -1,26 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&display=swap');
 
-/* I tried to put a background image on the body */
-/* body{
-  background-image: url(assets/Logos/FoxtailEmptyLogo.png);
-  background-color: #fff;
-} */
-
 .navbar{
   background-color: #e1a177;
-  display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
- 
-}
-
-#logo{
-  width: 120px;
-  height: 90px;
 }
 
 .offcanvas-body{
   background-color: #e1a177;
+}
+
+#Logo{
+    width: 150px;
+    height: 90px;
 }
 
 h2{
@@ -60,9 +50,9 @@ nav button.btn:hover{
 }
 
 #carouselExampleCaptions{
-  margin: 50px;
-  margin-bottom: 100px;
-  transform: translateY(90px);
+  margin: 60px;
+  margin-bottom: 90px;
+  transform: translateY(50px);
 }
 
 .carousel-item img{
