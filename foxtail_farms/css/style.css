@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&display=swap');
+
+/* I tried to put a background image on the body */
+/* body{
+  background-image: url(assets/Logos/FoxtailEmptyLogo.png);
+  background-color: #fff;
+} */
+
+.navbar{
+  background-color: #e1a177;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+ 
+}
+
+#logo{
+  width: 120px;
+  height: 90px;
+}
+
+.offcanvas-body{
+  background-color: #e1a177;
+}
+
+h2{
+  font-family: Lobster;
+  font-size: 50px;
+  text-align: center;
+  width: 300px;
+  color: #000;
+  background-color: #e1a177;
+  border-radius: 100%;
+  padding: auto;
+  margin: auto;
+/*   position: relative; */
+/*   transform: translateX(90px); */
+}
+
+ul li{
+  font-family: Montserrat;
+}
+
+form{
+  font-family: Montserrat;
+}
+
+/* I change the button hover */
+nav button.btn{
+  color:#000;
+  border: 2px solid #000;
+}
+
+nav button.btn:hover{
+  color: #e1a177;
+  background-color: #000;
+  border: 2px solid #e1a177;
+/*   padding: 8px 8px; */
+  width: 80px;
+}
+
+#carouselExampleCaptions{
+  margin: 50px;
+  margin-bottom: 100px;
+  transform: translateY(90px);
+}
+
+.carousel-item img{
+  width: 900px;
+  height: 700px;
+/*   position: relative; */
+  border: 5px solid #000;
+/*   transform: transitionY(-80px); */
+}
+
+.carousel-caption p{
+  font-family: Lobster;
+  font-size: 30px;
+  color: #000;
+  background-color: #e1a177;
+  width: 400px;
+  margin: auto;
+  border: 1px solid #000;
+/*   opacity: 1; */
+}
+
+.carousel button{
+  width: 50px;
+}
+
+.carousel button:hover{
+/*   position: inherit; */
+  background-color: #000;
+  opacity: .6;
+  width: 100px;
+/*   transform-origin: y-axis(center); */
+/*   margin-top: 10px; */
+  color: #e1a177;
+}
+
+div.col{
+  width: 600px !important;
+  background-color: #e1a177;
+  border-radius: 70px;
+  margin: 5px;
+/*   margin-top: 45px; */
+  margin-bottom: 35px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.col img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+div.col p{
+/*   text-align: center; */
+  font-family: Montserrat;
+  height: 90px;
+/*  border a measuring tool  */
+/*   border: 1px solid #000; */
+  margin: auto;
+  padding: 5px;
+  font-size:20px;
+}
+
+div.col button{
+  font-family: Montserrat;
+  color: #e1a177;
+/*   width: 40px;
+  height: 30px; */
+  margin: auto;
+/*   padding-bottom: 20px;
+  padding-right: 25px; */
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+div.col button:hover{
+  width: 120px;
+  height: 40px;
+  background-color: #e1a177;
+  color: #000;
+  border: 3px solid #000;
+}
+
+footer{
+  height: 80px;
+/*   display: block; */
+/*   text-align: center; */
+  padding: 30px;
+  background-color: #e1a177;
+  color: #000;
+}
+
+footer a{
+  color: #000;
+}
+
+footer a:hover{
+  color: white;
+}
+
+@media only screen and (max-width: 1220px) {
+  
+  .carousel-caption p{
+    width: 200px;
+    font-size: 20px;
+  }
+  
+  div.col{
+    width: 100%;
+    height: 150px;
+/*     display: flex; */
+  }
+  
+  div.col p {
+    width: 700px;
+    text-align: center;
+/*     margin: auto; */
+    padding: 25px 25px;
+/*     border: 1px solid #000; */
+  }
+  
+  div.col img {
+    width: 150px;
+    height: 100px;
+    border-radius: 90px;
+    margin: auto;
+  }
+  
+}
+
+/* I'm trying to capture the caption in the carousel... */
+@media only screen and (max-width: 769px)  {
+  
+  .carousel-caption p{
+    width: 200px;
+    font-size: 20px;
+  }
+  
+}
